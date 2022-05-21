@@ -1,5 +1,0 @@
-package cor
-
-func ChainOfResponsibility() {
-
-}
