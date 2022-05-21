@@ -1,0 +1,5 @@
+package cor
+
+func ChainOfResponsibility() {
+
+}
