@@ -7,9 +7,10 @@ func Strategy() {
 	nums := []int{6, 1, 2, 4, 3, 5, 7, 8, 9, 10}
 	// easily apply different sorting algorithms based on the input on the fly
 	if len(nums) > 4 {
-		context.SetStrategy(AscendingSortStrategy{})
+		context.setStrategy(AscendingSortStrategy{})
 	} else {
-		context.SetStrategy(DescendingSortStrategy{})
+		context.setStrategy(DescendingSortStrategy{})
 	}
-	context.strategy.Sort(nums)
+
+	context.strategy.sort(nums)
 }
