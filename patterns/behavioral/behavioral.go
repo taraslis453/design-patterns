@@ -3,6 +3,7 @@ package behavioral
 import (
 	"fmt"
 
+	"github.com/taraslis453/design-patterns/patterns/behavioral/command"
 	"github.com/taraslis453/design-patterns/patterns/behavioral/observer"
 	"github.com/taraslis453/design-patterns/patterns/behavioral/strategy"
 	templatemethod "github.com/taraslis453/design-patterns/patterns/behavioral/template-method"
@@ -16,4 +17,6 @@ func Behavioral() {
 	strategy.Strategy()
 	fmt.Println("Observer")
 	observer.RunObserver()
+	fmt.Println("Command")
+	command.RunCommand()
 }
