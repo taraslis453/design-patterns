@@ -1,3 +1,5 @@
+// Instead of calling the THING you want to call
+// you call the THING which call the THING you want !!"
 package proxy
 
 import "fmt"
