@@ -17,7 +17,7 @@ func NewDog(name string) Dog {
 }
 
 func (d Dog) Speak() string {
-	return fmt.Sprint("woof")
+	return "woof"
 }
 
 type Cat struct {
@@ -31,7 +31,7 @@ func NewCat(name string) Cat {
 }
 
 func (c Cat) Speak() string {
-	return fmt.Sprint("Meow")
+	return "Meow"
 }
 
 // factory method
